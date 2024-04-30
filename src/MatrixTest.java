@@ -35,6 +35,14 @@ class MatrixTest {
     }
 
     @org.junit.jupiter.api.Test
+    void fill_test() {
+        int width = 5;
+        int height = 5;
+        Matrix matrix = new Matrix(width, height);
+        
+    }
+
+    @org.junit.jupiter.api.Test
     void count() {
     }
 
